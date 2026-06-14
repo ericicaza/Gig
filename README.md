@@ -70,16 +70,16 @@ npm start
 This project is configured for the GitHub repository:
 
 ```text
-https://github.com/ericicaza/gig
+https://github.com/ericicaza/Gig
 ```
 
 The public GitHub Pages URL is:
 
 ```text
-https://ericicaza.github.io/gig/
+https://ericicaza.github.io/Gig/
 ```
 
-The Expo web export uses the `/gig` base path in `app.json`, which is required for a GitHub Pages project site.
+The Expo web export uses the `/Gig/` base path in `app.json`, which is required for a GitHub Pages project site.
 
 Before deploying, make sure dependencies are installed:
 

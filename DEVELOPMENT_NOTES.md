@@ -180,26 +180,26 @@ Recommended next task:
 ## Current session - GitHub Pages web deployment setup
 
 Changed:
-- Configured Expo web export for the GitHub Pages project path `/gig` in `app.json`.
+- Configured Expo web export for the GitHub Pages project path `/Gig/` in `app.json`.
 - Added `predeploy` and `deploy` scripts to `package.json`.
 - Added `gh-pages` as a dev dependency so `npm run deploy` can publish the `dist/` export to the `gh-pages` branch.
 - Added `dist/` to `.gitignore` because it is generated output.
 - Documented the GitHub Pages deploy flow in `README.md`.
 
 Checks run:
-- `npx.cmd expo export --platform web --output-dir "$env:TEMP\gig-export-check"` passed and Expo reported `Using (experimental) base path: /gig`.
-- The generated `index.html` references `/gig/_expo/...` for the bundled web assets.
+- `npx.cmd expo export --platform web --output-dir "$env:TEMP\gig-export-check"` passed and Expo reported `Using (experimental) base path: /Gig`.
+- The generated `index.html` references `/Gig/_expo/...` for the bundled web assets.
 - `git diff --check` reported only line-ending warnings for changed text files; no code whitespace errors were reported.
 
 Deployment still needs:
 - After commit approval, run `npm install` if `gh-pages` is not present locally, then run `npm run deploy` to publish.
 
 Still needs to be done:
-- Confirm the GitHub remote points to `https://github.com/ericicaza/gig`.
+- Confirm the GitHub remote points to `https://github.com/ericicaza/Gig`.
 - Commit the deployment setup after review approval.
 - Run the first `npm run deploy`.
 - In GitHub repository settings, confirm Pages is serving from the `gh-pages` branch if it is not enabled automatically.
-- Visit `https://ericicaza.github.io/gig/` and smoke test the role selection, searches, booking flow, inbox, messaging, and profile edits.
+- Visit `https://ericicaza.github.io/Gig/` and smoke test the role selection, searches, booking flow, inbox, messaging, and profile edits.
 
 Current limitations:
 - The deployed web app still uses mock/in-memory data.

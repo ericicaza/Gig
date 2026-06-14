@@ -1,6 +1,6 @@
 {
   "experiments": {
-    "baseUrl": "/gig"
+    "baseUrl": "/Gig/"
   },
   "plugins": [
     "expo-asset"
