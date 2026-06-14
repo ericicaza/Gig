@@ -1,0 +1,8 @@
+{
+  "experiments": {
+    "baseUrl": "/gig"
+  },
+  "plugins": [
+    "expo-asset"
+  ]
+}
